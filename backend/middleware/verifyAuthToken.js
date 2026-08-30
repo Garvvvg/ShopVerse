@@ -25,5 +25,4 @@ const verifyIsAdmin = (req, res, next) => {
     return res.status(401).send("Unauthorized. Admin required");
   }
 };
-
-module.exports = { verifyIsLoggedIn, verifyIsAdmin };
+module.exports={ verifyIsLoggedIn, verifyIsAdmin };
